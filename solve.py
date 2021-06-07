@@ -5,18 +5,12 @@ Created on Sun Jun  6 09:24:28 2021
 @author: tahmi
 """
 
+import sudoku_maker
 
-board = [
-    [7,8,0,4,0,0,1,2,0],
-    [6,0,0,0,7,5,0,0,9],
-    [0,0,0,6,0,1,0,7,8],
-    [0,0,7,0,4,0,2,6,0],
-    [0,0,1,0,5,0,9,3,0],
-    [9,0,4,0,6,0,0,0,5],
-    [0,7,0,3,0,0,0,1,2],
-    [1,2,0,0,0,7,4,0,0],
-    [0,4,9,2,0,6,0,0,7]
-]
+#print(sudoku_maker.board_original)
+#print("_________________")
+
+board = sudoku_maker.board
 
 def solve(bo):
     find = find_empty(bo)
