@@ -29,7 +29,7 @@ board_temp = board_original
 #for line in board_original: print(line)
 
 squares = side*side
-empties = squares * 3//4
+empties = squares * 4//6
 for p in sample(range(squares),empties):
     board_temp[p//side][p%side] = 0
 
