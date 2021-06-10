@@ -9,11 +9,14 @@ Created on Wed Jun  9 01:27:32 2021
 import pygame
 import time
 import sudoku_maker
+#import solve
 pygame.font.init()
 
 
 class Grid:
     board = sudoku_maker.board
+    #board_2 = board
+    
 
     def __init__(self, rows, cols, width, height, win):
         self.rows = rows
@@ -140,9 +143,9 @@ class Grid:
                 self.update_model()
                 self.cubes[row][col].draw_change(self.win, False)
                 pygame.display.update()
-                pygame.time.delay(100)
+                pygame.time.delay(0)
 
-        return False
+        #return False
 
 
 class Cube:
@@ -340,3 +343,5 @@ def main():
 
 main()
 pygame.quit()
+# solve.solve(Grid.board_2)
+# solve.print_board(Grid.board_2)
