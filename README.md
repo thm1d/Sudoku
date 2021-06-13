@@ -13,5 +13,5 @@ Starting with an incomplete board:
 5.Once the board is full by the definition of this algorithm we have found a solution.
 ```
 
-#GUI Instruction
+# GUI Instruction
 Press `spacebar` to see the magic.
