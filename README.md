@@ -12,3 +12,6 @@ Starting with an incomplete board:
    b) If it is not valid, reset the square you just filled and go back to the previous step.
 5.Once the board is full by the definition of this algorithm we have found a solution.
 ```
+
+#GUI Instruction
+Press `spacebar` to see the magic.
